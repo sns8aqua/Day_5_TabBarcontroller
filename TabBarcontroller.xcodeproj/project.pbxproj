@@ -16,6 +16,11 @@
 		EE72A829278DEBAC008C3FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE72A827278DEBAC008C3FE9 /* LaunchScreen.storyboard */; };
 		EE72A834278DEBAC008C3FE9 /* TabBarcontrollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE72A833278DEBAC008C3FE9 /* TabBarcontrollerTests.swift */; };
 		EE72A83F278DEBAC008C3FE9 /* TabBarcontrollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE72A83E278DEBAC008C3FE9 /* TabBarcontrollerUITests.swift */; };
+		EE72A84D278DED22008C3FE9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE72A84C278DED22008C3FE9 /* SecondViewController.swift */; };
+		EE72A84F278DEED9008C3FE9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE72A84E278DEED9008C3FE9 /* ThirdViewController.swift */; };
+		EE72A851278DEEE3008C3FE9 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE72A850278DEEE3008C3FE9 /* FourthViewController.swift */; };
+		EE72A853278DEFEF008C3FE9 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE72A852278DEFEF008C3FE9 /* SixthViewController.swift */; };
+		EE72A855278DF02B008C3FE9 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE72A854278DF02B008C3FE9 /* FifthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		EE72A83A278DEBAC008C3FE9 /* TabBarcontrollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarcontrollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE72A83E278DEBAC008C3FE9 /* TabBarcontrollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarcontrollerUITests.swift; sourceTree = "<group>"; };
 		EE72A840278DEBAC008C3FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE72A84C278DED22008C3FE9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EE72A84E278DEED9008C3FE9 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		EE72A850278DEEE3008C3FE9 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		EE72A852278DEFEF008C3FE9 /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		EE72A854278DF02B008C3FE9 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +114,11 @@
 				EE72A819278DEBAB008C3FE9 /* AppDelegate.swift */,
 				EE72A81B278DEBAB008C3FE9 /* SceneDelegate.swift */,
 				EE72A81D278DEBAB008C3FE9 /* ViewController.swift */,
+				EE72A84C278DED22008C3FE9 /* SecondViewController.swift */,
+				EE72A84E278DEED9008C3FE9 /* ThirdViewController.swift */,
+				EE72A850278DEEE3008C3FE9 /* FourthViewController.swift */,
+				EE72A854278DF02B008C3FE9 /* FifthViewController.swift */,
+				EE72A852278DEFEF008C3FE9 /* SixthViewController.swift */,
 				EE72A81F278DEBAB008C3FE9 /* Main.storyboard */,
 				EE72A825278DEBAC008C3FE9 /* Assets.xcassets */,
 				EE72A827278DEBAC008C3FE9 /* LaunchScreen.storyboard */,
@@ -261,9 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE72A855278DF02B008C3FE9 /* FifthViewController.swift in Sources */,
 				EE72A81E278DEBAB008C3FE9 /* ViewController.swift in Sources */,
 				EE72A824278DEBAB008C3FE9 /* TabBarcontroller.xcdatamodeld in Sources */,
 				EE72A81A278DEBAB008C3FE9 /* AppDelegate.swift in Sources */,
+				EE72A853278DEFEF008C3FE9 /* SixthViewController.swift in Sources */,
+				EE72A851278DEEE3008C3FE9 /* FourthViewController.swift in Sources */,
+				EE72A84D278DED22008C3FE9 /* SecondViewController.swift in Sources */,
+				EE72A84F278DEED9008C3FE9 /* ThirdViewController.swift in Sources */,
 				EE72A81C278DEBAB008C3FE9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
